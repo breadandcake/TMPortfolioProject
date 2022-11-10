@@ -1,0 +1,427 @@
+
+
+
+/*Categories*/
+#categories-padding-top {
+    border-bottom: solid;
+    border-bottom-color: #E197A2;
+}
+
+.categories-padding {
+    background-color: #c37d92;
+    padding: 0.5em;
+}
+
+.categories-nav-bar a:hover {
+    /*background-color: #ffd7d7;*/
+    /*border-style: solid;*/
+    /*border-bottom-color: #ebb9c0;
+    border-bottom-style: solid;*/
+    text-decoration-line: underline;
+    text-decoration-color: #7a0066;
+    text-decoration-thickness: 0.15em;
+}
+
+.categories-nav-bar a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0.2em .5em;
+}
+
+.categories-nav-bar {
+    font-family: 'Corbel Light' ,'Arial Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #ebb9c0;
+    /*border: solid;
+    border-color: green;*/
+    padding-top: 0.5em;
+    padding-left: 2.15em;
+    padding-bottom: 0.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*.c-header-test {
+    font-family: Gabriola ,'Corbel Light' ,'Arial Narrow', sans-serif;
+    font-size: 4em;
+}*/
+
+/*Main Page*/
+.mp-bread-header {
+    font-family: Gabriola ,'Corbel Light' ,'Arial Narrow', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    /*background-color: #DEE8D0;*/
+    background-color: white;
+    padding: 0em;
+    position: relative;
+    text-align: center;
+    /*white hex code: #ffffff*/
+    /*border-top: solid;
+    border-top-color: #DEE8D0;
+    border-bottom: solid;
+    border-bottom-color: #DEE8D0;*/
+    /*
+    greenfill: #DEE8D0
+    greenborder: #ADC78B
+    creamfill: #FFF9F5
+    creamborder: #FFEBDD
+    */
+}
+
+.mp-bread-header-padding {
+    padding: 1.5em 0em;
+    background-color: white;
+}
+
+/*Categories Recipe Grid*/
+.breads-border {
+    background-color: white; 
+    /*border: solid;
+    border-color: #E8AEB6;
+    border-width: 0.1em;*/
+    padding: .5em;
+    border-radius: 0px;
+    /*margin: 1em 0.5em;*/
+}
+
+.breads-space {
+    padding: 0.25em;
+}
+
+.breads-grid a {
+    text-decoration: none;
+    color: black;
+}
+
+.breads-grid {
+    flex: 25%;
+    flex-wrap: wrap;
+    /*padding: 0.75em 0.5em;*/
+    align-self: flex-start;
+    /*background-color: white;
+    border: solid;
+    border-color: #ebb9c0;
+    border-width: 0.5em;
+    border-radius: 2px;*/
+
+}
+
+.breads-grid-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /*flex-basis: ;*/
+}
+
+.breads-grid-main-square {
+    background-color: #f1f1f1;
+    /*background-color: #ebb9c0;*/
+    /*border-top: solid;
+    border-top-color: #E197A2;*/
+    border-bottom: solid;
+    border-bottom-color: #E197A2;
+    padding: 2.5em;
+}
+
+.recipe-name {
+    font-size: 1.15em;
+    font-weight: bold;
+    margin: 0.65em 0em;
+}
+
+/*.breadsRecipe {
+    padding: 0em;
+}*/
+
+/*From the original breads.html?*/
+.border-test {
+    background-color: white; 
+    border: solid;
+    border-color: #E197A2;
+    border-width: 0.1em;
+    padding: .5em;
+}
+
+.breads-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.breads-content {
+    flex: 25%;
+    padding: 0.75em 0.5em;
+    align-self: flex-start;
+    /*background-color: white;
+    border: solid;
+    border-color: #ebb9c0;
+    border-width: 0.5em;
+    border-radius: 2px;*/
+
+}
+
+.breads-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /*flex-basis: ;*/
+}
+
+.breads-main-square {
+    background-color: #ebb9c0;
+    border-top: solid;
+    border-top-color: #E197A2;
+}
+
+/*Recipe page header and image flexbox*/
+.c-header-words {
+    font-family: Gabriola ,'Corbel Light' ,'Arial Narrow', sans-serif;
+    font-size: 5em;
+    /*
+    greenfill: #DEE8D0
+    greenborder: #ADC78B
+    creamfill: #FFF9F5
+    creamborder: #FFEBDD
+    */
+}
+
+.categories-header-words {
+    flex: 50%;
+}
+
+.categories-header-image {
+    flex: 50%;
+}
+
+.categories-header {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em 0em;
+    /*border-bottom-color: #7a0066;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;*/
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #c37d92;
+}
+
+main {
+    background-color: #ebb9c0;
+}
+
+header {
+    background-color: #c37d92;
+}
+
+footer {
+    background-color: #c37d92;
+}
+
+.enter-email {
+    padding-top: 0.5em;
+}
+
+/*.mainHeader {
+    background-color: #fff9f5;
+    padding: 20px;
+
+}*/
+  
+.header-information {
+    text-align: center;
+    padding: 0.05em 0em 0.05em 0em;
+    /*border-style: solid;*/
+}
+
+.main-nav-bar a:hover {
+    /*background-color: #ffd7d7;*/
+    /*border-style: solid;*/
+    /*border-bottom-color: #ebb9c0;
+    border-bottom-style: solid;*/
+    /*text-decoration-line: underline;
+    text-decoration-color: #ebb9c0;*/
+    text-decoration-line: underline;
+    text-decoration-color: #7a0066;
+    text-decoration-thickness: 0.15em;
+}
+
+.main-nav-bar a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0.2em .5em;
+}
+
+
+.main-nav-bar {
+    font-family: 'Corbel Light' ,'Arial Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    /*background-color: #f1f1f1;
+    border: solid;
+    border-color: green;*/
+    padding-top: 1em;
+    padding-left: 2.15em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /*border: solid;
+    border-color: orange*/
+    border-top: solid;
+    border-top-color: #E197A2;
+    border-bottom: solid;
+    border-bottom-color: #E197A2;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 6px 4px 6px 4px;
+    /*border: solid;
+    border-color: blue;*/
+    background-color: white;
+    border-radius: 2px;
+}
+  
+.column img {
+    margin-top: 6px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#mp-img-mar {
+    margin-top: 2px;
+}
+
+#column-left {
+    padding-left: 8px;
+}
+
+#column-right {
+    padding-right: 8px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .breads-grid-main-square {
+        padding: 3.5em 10em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .breads-grid {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .breads-content {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    #mnb {
+        border-bottom: solid;
+        border-color: #7a0066;
+        border-width: 1.25px;
+        padding: 0.35em;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .categories-nav-bar {
+      flex-direction: column;
+      text-align: center;
+      padding: 0em;
+      font-family: 'Corbel Light', 'Arial Narrow', sans-serif;
+      font-weight: bold;
+      font-size: 1.3em;
+      /*border: solid;
+      border-color: green;*/
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-nav-bar {
+      flex-direction: column;
+      text-align: center;
+      padding: 0em;
+      font-family: 'Corbel Light', 'Arial Narrow', sans-serif;
+      font-weight: bold;
+      font-size: 1.3em;
+      /*border: solid;
+      border-color: green;*/
+
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .photo-grid {
+        padding: 50px 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .photo-grid {
+        padding: 20px 20px;
+    }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+
