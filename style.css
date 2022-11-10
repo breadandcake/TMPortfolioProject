@@ -1,4 +1,7 @@
 
+.list-no {
+    list-style-type: none;
+}
 
 .footer-enter-email {
     font-size: 1.15em;
@@ -138,11 +141,12 @@ li {
   }
 
 .recipe-link:hover {
-    color: #7a0066;
+    /*color: #7a0066;*/
+    color: #456387;
 }
 
 .recipe-link {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
 
