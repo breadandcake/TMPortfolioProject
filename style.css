@@ -10,12 +10,15 @@
 
 .sm-icon a {
     text-decoration: none;
+    deco
 }
 
 .sm-icon {
     width: 12%;
     border-radius: 6px;
     padding: 0.2em;
+    align-items: left;
+
 }
 
 
@@ -30,18 +33,22 @@
 */
 
 .rec-social {
-    flex: 24%;
+    flex: 25%;
+    border: solid;
 }
 
 .rec-enter-email {
-    flex: 46%;
+    flex: 45%;
+    font-size: 1.25em;
+    border: solid;
 }
 
 .rec-connect {
     flex: 30%;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Calisto MT', Arial;
     padding: 0em 1em 0em 0.5em;
+    border: solid;
 }
 
 .rec-flexbox-container {
