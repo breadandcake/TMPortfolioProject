@@ -25,12 +25,14 @@
     flex: 50%;
     border: solid;
     padding: 0.5em;
+    border-width: 1px;
 }
 
 .about-one {
     flex: 50%;
     border: solid;
     padding: 0.5em;
+    border-width: 1px;
 }
 
 .about-credits-container {
@@ -41,7 +43,6 @@
     flex-direction: row;
     justify-content: center;
     /*align-items:center;*/
-    border: solid;
 }
 
 
