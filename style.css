@@ -1,4 +1,61 @@
 
+
+
+
+
+.about-recipe-link {
+    margin: 0em;
+}
+
+
+
+.about-two img {
+    width: 25%;
+    float: left;
+    padding: 0em 0.5em 0em 0em;
+}
+
+.about-one img {
+    width: 25%;
+    float: left;
+    padding: 0em 0.5em 0em 0em;
+}
+
+.about-two {
+    flex: 50%;
+    border: solid;
+    padding: 0.5em;
+}
+
+.about-one {
+    flex: 50%;
+    border: solid;
+    padding: 0.5em;
+}
+
+.about-credits-container {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items:center;*/
+    border: solid;
+}
+
+
+.header-information img {
+    width: 80%;
+}
+
+
+.about-main-div {
+    background-color: #f1f1f1;
+}
+
+
+
 .list-no {
     list-style-type: none;
 }
@@ -208,7 +265,7 @@ li {
 /*Main Page*/
 .mp-bread-header {
     font-family: Gabriola ,'Corbel Light' ,'Arial Narrow', sans-serif;
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
     /*background-color: #DEE8D0;*/
     background-color: white;
@@ -229,7 +286,7 @@ li {
 }
 
 .mp-bread-header-padding {
-    padding: 1.5em 0em;
+    padding: 1em 0em;
     background-color: white;
 }
 
@@ -502,6 +559,13 @@ img {
 }
 
 
+
+
+@media screen and (max-width: 600px) {
+    .header-information img {
+        width: 100%; 
+    }
+}
 
 @media screen and (min-width: 900px) {
     .footer-img-test img {
